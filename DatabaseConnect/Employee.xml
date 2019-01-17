@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Accolite>
+<employee>
+<empno>123</empno>
+<empno>Mona Singh</empno>
+<empno>Developer</empno>
+<empno>123</empno>
+<empno>2012-08-12</empno>
+<empno>6557</empno>
+<empno>875</empno>
+<empno>20</empno>
+</employee>
+<employee>
+<empno>1223</empno>
+<empno>Mona Singh</empno>
+<empno>Developer</empno>
+<empno>123</empno>
+<empno>12-12-12</empno>
+<empno>78</empno>
+<empno>67</empno>
+<empno>344</empno>
+</employee>
+<employee>
+<empno>12623</empno>
+<empno>Mona Singh</empno>
+<empno>Developer</empno>
+<empno>123</empno>
+<empno>12-12-12</empno>
+<empno>78</empno>
+<empno>67</empno>
+<empno>344</empno>
+</employee>
+</Accolite>
