@@ -31,12 +31,17 @@ public class WriteToXML {
         while(rs.next()) {
         	Element employee = document.createElement("employee");
             root.appendChild(employee);
+            k=0;
         	for(int i = 1 ; i <= Count; i++){
+        		System.out.print(rs.getString(i)+" ");
+        		
         		String name=list.get(k);
+        		k++;
         		Element x = document.createElement(name);
         		x.appendChild(document.createTextNode(rs.getString(i)));
         		employee.appendChild(x);
         		}
+        	System.out.println();
         	}
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();

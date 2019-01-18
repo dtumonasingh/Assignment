@@ -9,10 +9,10 @@ public static void main(String args[]) {
         try{  
         	
         	String dbDriver = "com.mysql.cj.jdbc.Driver";      //Creating the connection
-            String dbURL = "jdbc:mysql://sql12.freemysqlhosting.net/"; 
-            String dbName ="sql12273536"; 
-            String dbUsername = "sql12273536"; 
-            String dbPassword = "accolite"; 
+            String dbURL = "jdbc:mysql://sql12.freemysqlhosting.net/";// localhost:3306/";       //sql12.freemysqlhosting.net/"; 
+            String dbName ="sql12274592";//"sql12274592"; 
+            String dbUsername = "sql12274592";//"sql12274592"; 
+            String dbPassword ="BYKrdA3mDn"; // "BYKrdA3mDn"; 
             Class.forName(dbDriver); 
             Connection con = DriverManager.getConnection(dbURL + dbName,dbUsername,dbPassword);   
             Statement stmt = con.createStatement();
@@ -37,7 +37,7 @@ public static void main(String args[]) {
             	 
             }
             queryInsert = queryInsert.substring(0, queryInsert.length() - 1);
-            queryInsert+=") VALUES(1023,'Mona Singh','Developer',123,'12-12-12',78,67,344);";
+            queryInsert+=") VALUES(106,'abc','intern',12,'12-12-12',78757,20);";
             stmt.executeUpdate(queryInsert);
             
             
@@ -47,7 +47,7 @@ public static void main(String args[]) {
             CompareXMLFiles.compareXMLFiles(file1,file2);
             }
         catch(Exception e){ 
-        	System.out.println(e);
+        	System.out.println("Error in main");
            }           
     }
 }
